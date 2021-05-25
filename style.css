@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #f69ec4; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to left, #f69ec4 0%, #32557f 100%);
+}
+
+.full-height {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 77px;
+    font-family: 'Montserat';
+    font-weight: bold;
+    font-style: oblique;
+    color: #ffffff;
+    position: relative;
+    height: 50%;
+}
+
+.button {
+    background: linear-gradient(to right, #f69ec4 0%, #32557f 100%);
+    color: #ffffff;
+    font-size: 27px;
+    font-family: 'Montserat';
+    font-weight: bold;
+    margin: auto;
+    padding: 15px 20px;
+    border: 2px double #32557f;
+    border-radius: 27px;
+    position: absolute;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
